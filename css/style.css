@@ -5,16 +5,12 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-body::after{
-    height: 20rem;
-    width: 20rem;
-    border-radius: 50%;
-    position: absolute;
-    bottom: 3rem;
-    right: 26rem;
-    background: linear-gradient(to left, blueviolet , white);
-    content: '';
-    z-index: -1;
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 41); 
 }
 
 .flip-card{
